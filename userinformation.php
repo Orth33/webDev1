@@ -1,8 +1,8 @@
 <?php
 
-$connection = mysqli_connect('localhost:3306','alimehbo_ali','alimehboob@1234','alimehbo_phpwebsite');
+$connection = mysqli_connect('localhost', 'root');
 
-mysqli_select_db($connection,"youtubedata");
+mysqli_select_db($connection,"websitedata");
 
 $user = $_POST['user'];
 $email = $_POST['email'];
